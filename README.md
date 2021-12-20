@@ -32,7 +32,7 @@ All color definitions are stored in `rasi/colors.rasi`.
 
 Applet/menu positions can be changed in each script, in `SETTINGS`.
 
-| POSITION  | ON     | SCREEN    |
+| Position  | on     | screen    |
 |-----------|--------|-----------|
 | northwest | north  | northeast |
 | west      | center | east      |
