@@ -24,10 +24,17 @@ sudo pacman -S papirus-icon-theme
 sudo apt install papirus-icon-theme
 ```
 
-# Change colors
+# Ccolors
 
 All color definitions are stored in `rasi/colors.rasi`.
 
+# Position
+
+Applet/menu positions can be changed in each script, in `SETTINGS`.
+
+|northwest|north|northeast|
+|west|center|east|
+|southwest|south|southeast|
 
 # clock.sh
 ![tags.sh](./screenshots/clock.png)
