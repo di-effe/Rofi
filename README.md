@@ -24,7 +24,7 @@ sudo pacman -S papirus-icon-theme
 sudo apt install papirus-icon-theme
 ```
 
-# Ccolors
+# Colors
 
 All color definitions are stored in `rasi/colors.rasi`.
 
@@ -33,7 +33,7 @@ All color definitions are stored in `rasi/colors.rasi`.
 Applet/menu positions can be changed in each script, in `SETTINGS`.
 
 | northwest | north | northeast |
-| west | center |east |
+| west | center | east |
 | southwest |south |southeast |
 
 # clock.sh
