@@ -32,6 +32,12 @@ sudo apt install papirus-icon-theme
 Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/rofi) it's a simple clock applet.
 
 
+# launcher.sh
+![tags.sh](./screenshots/launcher.png)
+
+### Description
+A simple *drun-style* application launcher.
+
 
 
 # powermenu.sh
