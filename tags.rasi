@@ -1,0 +1,122 @@
+/*
+################################################
+# Original design by Aditya Shakya (@adi1090x) #
+################################################
+*/
+
+@import "colors.rasi"
+
+configuration {
+    show-icons:                     false;
+	font:                      		"Iosevka Nerd Font 12";
+    disable-history:                false;
+	sidebar-mode: 					false;
+}
+
+* {
+    background-color:               @background;
+    text-color:                     @foreground;
+}
+
+window {
+    transparency:                   "real";
+    border-radius:                  0px;
+    location:                       center;
+	width:							600px;
+}
+
+prompt {
+    enabled: 						true;
+    padding:                        10px;
+	background-color: 				@background-light;
+	text-color: 					@primary;
+    border:                  		2px 2px 3px 2px;
+    border-radius:                  0px;
+    border-color:                  	@primary;
+}
+
+textbox-prompt-label {
+	expand: 						false;
+	str: 							" Active";
+	background-color: 				@primary;
+	text-color: 					@background;
+    font-width:                     bold;
+    padding:                        12px 10px 0px 10px;
+}
+
+inputbar {
+	children: 						[ textbox-prompt-label, prompt ];
+    spacing:                        0px;
+    background-color:               @background;
+    text-color:                     @foreground;
+    expand:                         false;
+    border:                  		0px;
+    border-radius:                  0px;
+    border-color:                  	@primary;
+    margin:                         0px;
+    padding:                        0px;
+    position:                       center;
+}
+
+listview {
+    columns:						5;
+    lines:							1;
+    spacing:                        10px;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               @background;
+    children:                       [ inputbar, listview ];
+    spacing:                        12px;
+    margin:                         12px;
+}
+
+element {
+    background-color:               @background-light;
+    text-color:                     @foreground;
+    orientation:                    vertical;
+    border-radius:                  0px;
+}
+
+element-text {
+    background-color: 				inherit;
+    text-color:       				inherit;
+	font:							"Iosevka Nerd Font 20";
+    expand:                         true;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color:               @off;
+    text-color:                     @background;
+    border-radius:                  0px;
+}
+
+element normal.active,
+element alternate.active {
+    background-color:               @on;
+    text-color:                     @background;
+}
+
+element selected {
+    background-color:               @primary;
+    text-color:                     @background;
+    border:                  		0px;
+    border-radius:                  0px;
+    border-color:                  	@border;
+}
+
+element selected.urgent {
+    background-color:               @on;
+    text-color:                     @background;
+}
+
+element selected.active {
+    background-color:               @off;
+    color:                          @background;
+}
