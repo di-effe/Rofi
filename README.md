@@ -32,11 +32,11 @@ All color definitions are stored in `rasi/colors.rasi`.
 
 Applet/menu positions can be changed in each script, in `SETTINGS`.
 
-| position  | on        | screen    |
-| -------   | ---       | ---       |
-| northwest | north     | northeast |
-| west      | center    | east      |
-| southwest | south     | southeast |
+| POSITION  | ON     | SCREEN    |
+|-----------|--------|-----------|
+| northwest | north  | northeast |
+| west      | center | east      |
+| southwest | south  | southeast |
 
 
 # clock.sh
