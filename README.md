@@ -4,6 +4,7 @@
 - Iosevka Nerd Font
   
 **Install**
+
 run `./installfonts.sh`
 
 
@@ -39,6 +40,7 @@ The Lock option requires `/misc/lockscreen` script and
 - i3lock
 - imagemagick
 - scrot
+  
 It will create a pixelate version of you wallpaper(s) as a background for the lockscreen.
 
 ### Config
