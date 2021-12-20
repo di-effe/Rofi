@@ -10,6 +10,7 @@ run `./installfonts.sh`
 
 ## Icons
 - Papirus
+  
 **Install**
 [papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 
