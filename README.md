@@ -87,7 +87,7 @@ This script has been designed explicitly for [LeftWM](https://github.com/leftwm/
 The top section will show the active TAG in the focused screen.
 The section below will show any other available TAG to switch to.
 
-Visible or busy can be marked with a special character or icon.
+*Visible* or *busy* TAGS can be marked with a special character or icon in the `SETTINGS`.
 
 ### Config
 
