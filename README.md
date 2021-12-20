@@ -24,6 +24,10 @@ sudo pacman -S papirus-icon-theme
 sudo apt install papirus-icon-theme
 ```
 
+# Change colors
+
+All color definitions are stored in `rasi/colors.rasi`.
+
 
 # clock.sh
 ![tags.sh](./screenshots/clock.png)
