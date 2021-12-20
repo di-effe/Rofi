@@ -1,6 +1,20 @@
 #!/usr/bin/env bash
-LPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
+# SETTINGS ####################################################
+# Possible positions:
+# center
+# north
+# northeast
+# east
+# southeast
+# south
+# southwest
+# west
+# northwest
+LOCATION="center"
+###############################################################
+
+LPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 WSACTIVE="$(leftwm-state -q -t $LPATH/misc/workspaceid.liquid)"
 
 # Items to display
@@ -9,11 +23,17 @@ PREV=""
 NEXT=""
 
 # Rofi config
-start_rofi="rofi -theme $LPATH/layout.rasi"
+rofi_cmd="rofi -theme $LPATH/rasi/layout.rasi"
 display="$PREV\n$NEXT"
 
-## Main
-chosen="$(echo -e "$display" | $start_rofi -p "$LAYOUT" -dmenu -selected-row 1)"
+# Main
+chosen="$(echo -e "$display" | \
+$rofi_cmd -p "$LAYOUT" -dmenu \
+-theme-str 'window {location: '$LOCATION';}' \
+-selected-row 1\
+)"
+
+# Use choosen 
 case $chosen in
     $PREV)
         leftwm-command "PreviousLayout"

@@ -66,6 +66,22 @@ Change applet position in the `SETTINGS`.
 
 
 
+# layout.sh
+![tags.sh](./screenshots/layout.png)
+
+### Description
+This script has been designed explicitly for [LeftWM](https://github.com/leftwm/leftwm), so it won´t work with any other WM.
+
+The top section will show the active LAYOUT in the focused screen.
+The section below will select next or previous LAYOUT.
+
+### Config
+
+Change applet position in the `SETTINGS`.
+
+
+
+
 # launcher.sh
 ![tags.sh](./screenshots/launcher.png)
 
