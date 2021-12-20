@@ -5,6 +5,17 @@
 ISBUSY="·"
 # Size for each tag button/link
 WIDTH="90"
+# Possible positions:
+# center
+# north
+# northeast
+# east
+# southeast
+# south
+# southwest
+# west
+# northwest
+LOCATION="center"
 ###############################################################
 
 LPATH="$( cd "$(dirname "$0")" ; pwd -P )"
@@ -53,12 +64,13 @@ done
 # Rofi config
 rofi_cmd="rofi -theme $LPATH/rasi/tags.rasi"
 
-## Main
+# Main
 chosen="$(echo -e "$TAGS" | \
 $rofi_cmd -p "$TAGACTIVE" -dmenu \
 -selected-row 0 \
 -theme-str 'window {width: '$WINDOW_WIDTH';}' \
--theme-str 'listview {columns: '$WINDOW_COLS';}'\
+-theme-str 'listview {columns: '$WINDOW_COLS';}' \
+-theme-str 'window {location: '$LOCATION';}' \
 )"
 
 # Stripping busy char

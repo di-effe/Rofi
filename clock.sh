@@ -3,6 +3,20 @@
 # Original design by Aditya Shakya (@adi1090x) #
 ################################################
 
+# SETTINGS ####################################################
+# Possible positions:
+# center
+# north
+# northeast
+# east
+# southeast
+# south
+# southwest
+# west
+# northwest
+LOCATION="center"
+###############################################################
+
 LPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
 # Split date and time into single items
@@ -16,8 +30,12 @@ MONTH="$(date +"%m")"
 YEAR="$(date +"%Y")"
 
 # Rofi config
-start_rofi="rofi -theme $LPATH/rasi/clock.rasi"
+rofi_cmd="rofi -theme $LPATH/rasi/clock.rasi"
 display="$HOUR\n$MINUTES"
 
-## Main
-chosen="$(echo -e "$display" | $start_rofi -p "$DN, $DAY $MN" -dmenu -selected-row 1)"
+# Main
+chosen="$(echo -e "$display" | \
+$rofi_cmd -p "$DN, $DAY $MN" -dmenu \
+-theme-str 'window {location: '$LOCATION';}' \
+-selected-row 1\
+)"

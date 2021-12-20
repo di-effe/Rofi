@@ -35,6 +35,10 @@ All color definitions are stored in `rasi/colors.rasi`.
 ### Description
 Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/rofi) it's a simple clock applet.
 
+### Config
+Change applet position in the `SETTINGS`.
+
+
 
 # launcher.sh
 ![tags.sh](./screenshots/launcher.png)
@@ -42,6 +46,8 @@ Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/ro
 ### Description
 A simple *drun-style* application launcher.
 
+### Config
+Change applet position in the `SETTINGS`.
 
 
 # powermenu.sh
@@ -58,9 +64,7 @@ The Lock option requires `/misc/lockscreen` script and
 It will create a pixelate version of you wallpaper(s) as a background for the lockscreen.
 
 ### Config
-
-Change icons in the SETTINGS section.
-
+Change icons and applet position in the `SETTINGS`.
 
 
 
@@ -82,7 +86,7 @@ Total window width will be calculated using `WIDTH` multiplied for the number of
 
 Busy marker can be set in `ISBUSY`.
 
-
+Change applet position in the `SETTINGS`.
 
 
 
