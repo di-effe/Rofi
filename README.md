@@ -58,7 +58,7 @@ Change icons in the SETTINGS section.
 ![tags.sh](./screenshots/tags.png)
 
 ### Description
-This script has been designed explicitly for **LeftWM**, so it won´t work with any other WM.
+This script has been designed explicitly for [LeftWM](https://github.com/leftwm/leftwm), so it won´t work with any other WM.
 
 The top section will show the active TAG in the focused screen.
 The section below will show any other available TAG to switch to.
