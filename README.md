@@ -36,6 +36,10 @@ Applet/menu positions can be changed in each script, in `SETTINGS`.
 | west      | center    | east |
 | southwest | south     |southeast |
 
+| Attempt | #1  | #2  |
+| ------- | --- | --- |
+| Seconds | 301 | 283 |
+
 # clock.sh
 ![tags.sh](./screenshots/clock.png)
 
