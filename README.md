@@ -28,7 +28,7 @@ sudo apt install papirus-icon-theme
 # clock.sh
 ![tags.sh](./screenshots/clock.png)
 
-## Description
+### Description
 Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/rofi) it's a simple clock applet.
 
 
@@ -37,7 +37,7 @@ Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/ro
 # powermenu.sh
 ![tags.sh](./screenshots/powermenu.png)
 
-## Description
+### Description
 Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/rofi) it's a simple applet to control power actions like Shutdown, Reboot, Lock, Suspend and Logout.
 
 The Lock option requires `/misc/lockscreen` script and
@@ -47,7 +47,7 @@ The Lock option requires `/misc/lockscreen` script and
   
 It will create a pixelate version of you wallpaper(s) as a background for the lockscreen.
 
-## Config
+### Config
 
 Change icons in the SETTINGS section.
 
@@ -57,7 +57,7 @@ Change icons in the SETTINGS section.
 # tags.sh
 ![tags.sh](./screenshots/tags.png)
 
-## Description
+### Description
 This script has been designed explicitly for **LeftWM**, so it won´t work with any other WM.
 
 The top section will show the active TAG in the focused screen.
@@ -65,7 +65,7 @@ The section below will show any other available TAG to switch to.
 
 Visible or busy can be marked with a special character or icon.
 
-## Config
+### Config
 
 Each available TAG button will have the width configured in the `WIDTH` var.
 Total window width will be calculated using `WIDTH` multiplied for the number of available TAGS (total tags minus the active one).
