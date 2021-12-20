@@ -24,6 +24,16 @@ sudo pacman -S papirus-icon-theme
 sudo apt install papirus-icon-theme
 ```
 
+
+# clock.sh
+![tags.sh](./screenshots/clock.png)
+
+## Description
+Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/rofi) it's a simple clock applet.
+
+
+
+
 # powermenu.sh
 ![tags.sh](./screenshots/powermenu.png)
 

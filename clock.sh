@@ -16,7 +16,7 @@ MONTH="$(date +"%m")"
 YEAR="$(date +"%Y")"
 
 # Rofi config
-start_rofi="rofi -theme $LPATH/clock.rasi"
+start_rofi="rofi -theme $LPATH/rasi/clock.rasi"
 display="$HOUR\n$MINUTES"
 
 ## Main
