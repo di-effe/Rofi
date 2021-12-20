@@ -51,7 +51,7 @@ do
 done
 
 # Rofi config
-rofi_cmd="rofi -theme $LPATH/tags.rasi"
+rofi_cmd="rofi -theme $LPATH/rasi/tags.rasi"
 
 ## Main
 chosen="$(echo -e "$TAGS" | \

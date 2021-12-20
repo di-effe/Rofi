@@ -9,7 +9,7 @@ logout=""
 ###############################################################
 
 LPATH="$( cd "$(dirname "$0")" ; pwd -P )"
-rofi_command="rofi -theme $LPATH/powermenu.rasi"
+rofi_command="rofi -theme $LPATH/rasi/powermenu.rasi"
 
 
 options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
