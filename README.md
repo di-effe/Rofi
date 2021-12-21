@@ -100,10 +100,10 @@ Change applet position in the `SETTINGS`.
 Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/rofi) it's a an applet to manage network connections.
 
 The applet requires
-- bmon ~ bandwidth monitor and rate estimator
-- nmtui ~ Text User Interface for controlling NetworkManager
-- nm-connection-editor ~ network connection editor for NetworkManager
-- alacritty/termite to run bmon and nmtui
+- **bmon** ~ bandwidth monitor and rate estimator
+- **nmtui** ~ Text User Interface for controlling NetworkManager
+- **nm-connection-editor** ~ network connection editor for NetworkManager
+- **alacritty/termite** to run bmon and nmtui
 
 ### Config
 Change icons and applet position in the `SETTINGS`.
@@ -118,11 +118,9 @@ Change icons and applet position in the `SETTINGS`.
 Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/rofi) it's a simple applet to control power actions like Shutdown, Reboot, Lock, Suspend and Logout.
 
 The Lock option requires `/misc/lockscreen` script and
-- i3lock
-- imagemagick
-- scrot
-  
-It will create a pixelate version of you wallpaper(s) as a background for the lockscreen.
+- **scrot** to take a screenshot of your workspaces
+- - **imagemagick** to pixelate the screenshot
+- **i3lock** to lock your system
 
 ### Config
 Change icons and applet position in the `SETTINGS`.
