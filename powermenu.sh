@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # SETTINGS ####################################################
+# Feather font icons:
 shutdown=""
 reboot=""
 lock=""

@@ -5,4 +5,6 @@
     foreground-dark:    #44475A;
     primary:            #FFB300;
     bordercolor:        #FFB300;
+    on:                 #19FFA6;
+    off:                #FF7C0D;
 }

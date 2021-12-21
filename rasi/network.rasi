@@ -22,7 +22,7 @@ window {
     transparency:                   "real";
     border-radius:                  4px;
     location:                       center;
-	width:							330px;
+    width:                       	550px;
     x-offset:                       0px;
     y-offset:                       0px;
 }
@@ -39,7 +39,7 @@ prompt {
 
 textbox-prompt-colon {
 	expand: 						false;
-	str: 							" Date";
+	str: 							"Network";
 	background-color: 				@primary;
 	text-color: 					@background;
     padding:                        5px 5px 0px 5px;
@@ -54,15 +54,15 @@ inputbar {
     border:                  		0px;
     border-radius:                  0px;
     border-color:                  	@primary;
-    margin:                         0px;
+    margin:                         0px 0px 0px 0px;
     padding:                        0px;
     position:                       center;
 }
 
 listview {
-    columns:						3;
+    columns:						4;
     lines:							1;
-    spacing:                        0;
+    spacing:                        15px;
     cycle:                          true;
     dynamic:                        true;
     layout:                         vertical;
@@ -71,32 +71,32 @@ listview {
 mainbox {
     background-color:               @background;
     children:                       [ inputbar, listview ];
-    spacing:                        12px;
-    margin:                         12px;
+    spacing:                        10px;
+    margin:                         15px;
 }
 
 element {
     background-color:               @background-light;
     text-color:                     @foreground;
     orientation:                    vertical;
-    border-radius:                  0px;
+    border-radius:                  4px;
 }
 
 element-text {
     background-color: 				inherit;
     text-color:       				inherit;
-	font:							"Iosevka Nerd Font 60";
+	font:							"feather 26";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-    margin:                         0px;
+    margin:                         30px 0px 30px 0px;
 }
 
 element normal.urgent,
 element alternate.urgent {
     background-color:               @off;
     text-color:                     @background;
-    border-radius:                  0px;
+    border-radius:                  4px;
 }
 
 element normal.active,
@@ -109,7 +109,7 @@ element selected {
     background-color:               @primary;
     text-color:                     @background;
     border:                  		0px;
-    border-radius:                  0px;
+    border-radius:                  4px;
     border-color:                  	@bordercolor;
 }
 

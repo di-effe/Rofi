@@ -2,6 +2,7 @@
 
 ## Fonts
 - Iosevka Nerd Font
+- Feather
   
 **Install**
 
@@ -90,6 +91,24 @@ A simple *drun-style* application launcher.
 
 ### Config
 Change applet position in the `SETTINGS`.
+
+
+# network.sh
+![tags.sh](./screenshots/network.png)
+
+### Description
+Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/rofi) it's a an applet to manage network connections.
+
+The applet requires
+- bmon ~ bandwidth monitor and rate estimator
+- nmtui ~ Text User Interface for controlling NetworkManager
+- nm-connection-editor ~ network connection editor for NetworkManager
+- alacritty/termite to run bmon and nmtui
+
+### Config
+Change icons and applet position in the `SETTINGS`.
+
+
 
 
 # powermenu.sh
