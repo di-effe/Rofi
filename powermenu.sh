@@ -20,7 +20,7 @@ logout=""
 LOCATION="center"
 #
 CONFIRMATION_MSG="Are You Sure? : "
-CONFIRMATION_OPT="Available Options: (yes / y)  (no / n)"
+CONFIRMATION_OPT="Available Options: [y/yes] [n/no]"
 ###############################################################
 
 LPATH="$( cd "$(dirname "$0")" ; pwd -P )"
