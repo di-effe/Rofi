@@ -23,11 +23,13 @@ window {
     border-radius:                  0px;
     location:                       center;
 	width:							400px;
+    x-offset:                       0px;
+    y-offset:                       0px;
 }
 
 prompt {
     enabled: 						true;
-    padding:                        10px;
+    padding:                        3px 10px 3px 10px;
 	background-color: 				@background-light;
 	text-color: 					@primary;
     border:                  		2px 2px 3px 2px;
@@ -35,17 +37,16 @@ prompt {
     border-color:                  	@primary;
 }
 
-textbox-prompt-label {
+textbox-prompt-colon {
 	expand: 						false;
 	str: 							" Layout";
 	background-color: 				@primary;
 	text-color: 					@background;
-    font-width:                     bold;
-    padding:                        12px 10px 0px 10px;
+    padding:                        5px 5px 0px 5px;
 }
 
 inputbar {
-	children: 						[ textbox-prompt-label, prompt ];
+	children: 						[ textbox-prompt-colon, prompt ];
     spacing:                        0px;
     background-color:               @background;
     text-color:                     @foreground;
@@ -88,13 +89,14 @@ element-text {
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
+    margin:                         0px;
 }
 
 element normal.urgent,
 element alternate.urgent {
     background-color:               @off;
     text-color:                     @background;
-    border-radius:                  0px;
+    border-radius:                  4px;
 }
 
 element normal.active,
@@ -107,8 +109,8 @@ element selected {
     background-color:               @primary;
     text-color:                     @background;
     border:                  		0px;
-    border-radius:                  0px;
-    border-color:                  	@border;
+    border-radius:                  4px;
+    border-color:                  	@bordercolor;
 }
 
 element selected.urgent {
