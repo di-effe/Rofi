@@ -31,7 +31,7 @@ All color definitions are stored in `rasi/colors.rasi`.
 
 # Position
 
-Applet/menu positions can be changed in each script, in `SETTINGS`.
+Applet/menu positions can be changed in the `SETTINGS` section of each script.
 
 | Position  | on     | screen    |
 |-----------|--------|-----------|

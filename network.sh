@@ -3,7 +3,7 @@
 # SETTINGS ####################################################
 # Feather font icons:
 # -bmon ~ bandwidth monitor and rate estimator
-bmon=""
+bmon=""
 # -nmtui ~ Text User Interface for controlling NetworkManager
 nmtui=""
 # -nm-connection-editor ~ network connection editor for NetworkManager
