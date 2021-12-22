@@ -120,7 +120,7 @@ Largely derived from [adi1090x's Rofi collection](https://github.com/adi1090x/ro
 The Lock option requires `/misc/lockscreen` script and
 - **scrot** to take a screenshot of your workspaces
 - **imagemagick** to pixelate the screenshot
-- **i3lock** to lock your system
+- **i3lock-color** to lock your system
 
 ### Config
 Change icons and applet position in the `SETTINGS`.
